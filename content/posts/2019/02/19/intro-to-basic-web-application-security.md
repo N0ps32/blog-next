@@ -482,7 +482,7 @@ sure this setting is set.
 If you are not careful you might leak sensitive information like folder structures, db structures, connection
 information and user information through improper error handling in production environments.
 
-<img quality="90" alt="Yii database exception" src="/assets/posts/2019/db-exception.png" width="1253" height="1007" />
+<img quality="90" alt="Yii database exception" src="/assets/posts/2019/db-exception.jpg" width="1253" height="1007" />
 
 You wouldn't want your users to see that right?
 
