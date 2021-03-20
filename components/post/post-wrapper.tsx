@@ -48,7 +48,7 @@ export const PostWrapper: FunctionComponent<PostWrapperProps> = ({postImage, tag
                     quality="90"
                 />
                 {children}
-                {tags.length && renderTags(tags)}
+                {tags.length > 0 ? renderTags(tags) : ''}
                 <div
                     className="rounded-b-sm bg-blue text-white text-sm flex justify-between items-center leading-4 px-3 py-2 h-9">
                     {renderDate(publishDate)}
