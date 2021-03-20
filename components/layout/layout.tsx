@@ -30,6 +30,7 @@ export default function Layout({children}) {
                     rel='preload'
                     as='font'
                     type="font/woff2"
+                    crossOrigin="anonymous"
                     href={`/assets/fonts/${font}`}
                 />)}
             </Head>
