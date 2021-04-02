@@ -110,6 +110,12 @@ export function getAllTags(): Array<string> {
         }, []);
 }
 
+export function findAllPostPreviews(): Array<PostPreview> {
+    return getAllMdPaths()
+        .map(parseMd)
+        .map(postToPreview);
+}
+
 export function findPostPreviewsByTag(tag: string): Array<PostPreview> {
     return getAllMdPaths()
         .map(parseMd)
