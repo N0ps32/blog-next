@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "build:feed": "node_modules/.bin/babel-node -x .ts -- ./lib/server/rss.ts",
     "start": "next start"
   },
