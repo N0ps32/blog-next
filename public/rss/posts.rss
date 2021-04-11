@@ -4,7 +4,7 @@
         <title>Benjamin's Blog</title>
         <link>https://www.raeder.technology</link>
         <description>Benjamin's Blog</description>
-        <lastBuildDate>Fri, 02 Apr 2021 21:46:15 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Apr 2021 01:05:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <content:encoded><![CDATA[Encrypting your data is an important step to protect your personal information while the data is not in use. There are multiple ways of encrypting your data. Full-disk encryption, using a container file that contains specific files that should be encrypted, encrypting single files or encrypting an entire directory.
 ]]></content:encoded>
             <author>blog@raeder.technology (Benjamin Räder)</author>
-            <enclosure url="https://www.raeder.technology/assets/posts/2019/encryption.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://www.raeder.technology/assets/img/posts/2019/encryption.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Intro to basic web application security]]></title>
@@ -31,7 +31,7 @@
             <content:encoded><![CDATA[<p class="py-2">PHP has some great advantages over several other languages in that it's really easy for beginners to set-up a basic website. That upside comes with some downsides too. A lot of basic PHP tutorials fail to cover important aspects of application security.</p> <p class="py-2">This post is divided into several sections each covering a different security threat and how to properly defend your site against it.</p>
 ]]></content:encoded>
             <author>blog@raeder.technology (Benjamin Räder)</author>
-            <enclosure url="https://www.raeder.technology/assets/posts/2019/security.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://www.raeder.technology/assets/img/posts/2019/security.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Allow Craft CMS editors to insert Twig in CMS entries]]></title>
@@ -43,7 +43,7 @@
             <content:encoded><![CDATA[Sometimes there are unique content requirements that require content editors to insert Twig code in Craft CMS entries. However this raises several security concerns and issues. In this post I'll highlight the solution I developed for my blog.
 ]]></content:encoded>
             <author>blog@raeder.technology (Benjamin Räder)</author>
-            <enclosure url="https://www.raeder.technology/assets/posts/2019/twig_craft-1.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://www.raeder.technology/assets/img/posts/2019/twig_craft-1.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Practical PHP/Twig implementation for HTTP/2 Server Push]]></title>
@@ -55,7 +55,7 @@
             <content:encoded><![CDATA[HTTP/2 offers many advantages over legacy protocols like HTTP/1.1. One of those features is Server Push, a way to push assets to the client before the server supplies the requested HTML document. This allows for faster load-times for critical assets. In this example I will be using the Caddy webserver, however modern Apache 2 and nginx versions also support Sever Push and HTTP/2.
 ]]></content:encoded>
             <author>blog@raeder.technology (Benjamin Räder)</author>
-            <enclosure url="https://www.raeder.technology/assets/posts/2019/programming_header.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://www.raeder.technology/assets/img/posts/2019/programming_header.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[Tolino Shine 3 review]]></title>
@@ -67,7 +67,7 @@
             <content:encoded><![CDATA[This is my review of the Tolino Shine 3. While the device has some strong points it disappoints in others. It's a relatively cheap E-Reader featuring an E-Ink display. E-Ink is a cool technology that uses electrically charged pigments to draw an image on the screen that persists without any power applied to it. Meaning you should get days or even weeks of battery life out of a device like this.
 ]]></content:encoded>
             <author>blog@raeder.technology (Benjamin Räder)</author>
-            <enclosure url="https://www.raeder.technology/assets/posts/2019/tolino.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://www.raeder.technology/assets/img/posts/2019/tolino.jpg" length="0" type="image/jpg"/>
         </item>
         <item>
             <title><![CDATA[New year, new blog]]></title>
@@ -79,7 +79,7 @@
             <content:encoded><![CDATA[<p class="py-2">With a new year comes a new server (now Debian 9 wooo!) and a new blog system built on craft 3.</p> <p class="py-2">Right of the bat I faced multiple challenges deploying this new blog because of a wonderful bug that causes the locking of project.yaml to not work in production environments. Long story short I had to reinstall this blog four times before it actually working.</p> <p class="py-2">The blog is served by Caddy which is awesome! It provides HTTPS with Let's Encrypt and HTTP2 with  zero configuration. Here is what my setup looks like:</p>
 ]]></content:encoded>
             <author>blog@raeder.technology (Benjamin Räder)</author>
-            <enclosure url="https://www.raeder.technology/assets/posts/2019/CWYK8CLC61.jpg" length="0" type="image/jpg"/>
+            <enclosure url="https://www.raeder.technology/assets/img/posts/2019/CWYK8CLC61.jpg" length="0" type="image/jpg"/>
         </item>
     </channel>
 </rss>

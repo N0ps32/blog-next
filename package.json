@@ -13,9 +13,13 @@
     "date-fns": "^2.19.0",
     "glob": "^7.1.6",
     "gray-matter": "^4.0.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^9.0.0",
     "lunr": "^2.3.9",
     "markdown-to-jsx": "^7.1.1",
     "next": "10.0.8",
+    "next-optimized-images": "^2.6.2",
     "postcss": "^8.2.7",
     "postcss-custom-properties": "^11.0.0",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -27,7 +31,8 @@
     "react-syntax-highlighter": "^15.4.3",
     "tailwindcss": "^2.0.3",
     "ts-key-enum": "^2.0.7",
-    "typescript": "^4.2.3"
+    "typescript": "^4.2.3",
+    "webp-loader": "^0.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.13.14",

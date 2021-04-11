@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'components/misc/image';
 
 export default function Logo() {
     return (
@@ -7,7 +7,7 @@ export default function Logo() {
             <a>
                 <div className="flex flex-row items-center text-2xl">
                     <Image
-                        src="/assets/img/logo.png"
+                        src="logo.png"
                         alt="Site Logo"
                         height={64}
                         width={64}

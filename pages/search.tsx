@@ -1,12 +1,12 @@
 import Head from 'next/head';
-import Layout from '../components/layout/layout';
-import {getSearchData, PostPreview as Preview} from '../lib/server/posts';
+import Layout from 'components/layout/layout';
+import {getSearchData, PostPreview as Preview} from 'lib/server/posts';
 import {NextRouter, withRouter} from 'next/router';
 import {Component} from 'react';
 import lunr from 'lunr';
 import * as queryString from 'querystring';
-import PostPreview from '../components/post/post-preview';
-import {getTitle} from '../lib/util';
+import PostPreview from 'components/post/post-preview';
+import {getTitle} from 'lib/util';
 
 interface SearchProps {
     searchIndex: string;
@@ -27,7 +27,7 @@ const notFoundDummyPost: Preview = {
         'The search-engine tried as hard as it possibly could but even with all that effort it came back empty handed. ' +
         'But you could always give it another try and find something different that might interest you.',
     title: 'No results found :(',
-    postImage: '/assets/img/404.jpg',
+    postImage: '404.jpg',
     tags: [],
 };
 

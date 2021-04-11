@@ -2,7 +2,7 @@
 meta:
     description: How to allow Twig template code to be inserted in Craft CMS content entries
     tags: twig, craft cms, php, twig filter, twig insert html
-postImage: /assets/posts/2019/twig_craft-1.jpg
+postImage: 2019/twig_craft-1.jpg
 postTitle: "Allow Craft CMS editors to insert Twig in CMS entries"
 publishDate: "2019-02-03"
 teaserText: >

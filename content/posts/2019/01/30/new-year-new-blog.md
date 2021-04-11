@@ -2,7 +2,7 @@
 meta:
     description: "I launched my new blog, built with Caddy, Craft CMS and Debian 9"
     tags: blog, caddy, craft cms
-postImage: /assets/posts/2019/CWYK8CLC61.jpg
+postImage: 2019/CWYK8CLC61.jpg
 postTitle: "New year, new blog"
 publishDate: "2019-01-30"
 teaserText: >

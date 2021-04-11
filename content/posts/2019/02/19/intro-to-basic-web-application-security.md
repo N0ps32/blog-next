@@ -2,7 +2,7 @@
 meta:
   description: Intro to basic web application security for beginners
   tags: php, backend, security
-postImage: /assets/posts/2019/security.jpg
+postImage: 2019/security.jpg
 postTitle: "Intro to basic web application security"
 publishDate: "2019-02-19"
 teaserText: >
@@ -482,7 +482,7 @@ sure this setting is set.
 If you are not careful you might leak sensitive information like folder structures, db structures, connection
 information and user information through improper error handling in production environments.
 
-<img quality="90" alt="Yii database exception" src="/assets/posts/2019/db-exception.jpg" width="1253" height="1007" />
+<img alt="Yii database exception" src="posts/2019/db-exception.jpg" width="1253" height="1007" style="width: 100%" />
 
 You wouldn't want your users to see that right?
 

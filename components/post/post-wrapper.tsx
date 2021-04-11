@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Card from '../layout/card';
+import Card from 'components/layout/card';
 import Link from 'next/link';
 import {FunctionComponent} from 'react';
+import Image from 'components/misc/image';
 
 interface PostWrapperProps {
     publishDate: string;
@@ -16,7 +16,7 @@ function renderDate(publishDate?: string) {
 
     return (
         <div className="flex items-center">
-            <Image alt="calendar icon" className="text-white" src="/assets/img/icons/calendar.svg" width="15px" height="15px"/>
+            <Image alt="calendar icon" className="text-white" src="icons/calendar.svg" width="15px" height="15px"/>
             <span className="pl-2">{publishDate}</span>
         </div>
     );
@@ -40,12 +40,11 @@ export const PostWrapper: FunctionComponent<PostWrapperProps> = ({postImage, tag
         <div className="pb-5 sm:pb-7">
             <Card>
                 <Image
-                    src={postImage}
+                    src={`posts/${postImage}`}
                     width={1000}
                     height={280}
                     alt="Post header image"
                     className="rounded-t-sm"
-                    quality="90"
                 />
                 {children}
                 {tags.length > 0 ? renderTags(tags) : ''}
@@ -53,7 +52,7 @@ export const PostWrapper: FunctionComponent<PostWrapperProps> = ({postImage, tag
                     className="rounded-b-sm bg-blue text-white text-sm flex justify-between items-center leading-4 px-3 py-2 h-9">
                     {renderDate(publishDate)}
                     <div className="flex items-center">
-                        <Image alt="user icon" className="text-white" src="/assets/img/icons/user.svg" width="15px" height="15px"/>
+                        <Image alt="user icon" className="text-white" src="icons/user.svg" width="15px" height="15px"/>
                         <span className="pl-2">Written by Benjamin Räder</span>
                     </div>
                 </div>

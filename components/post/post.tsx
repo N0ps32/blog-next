@@ -1,6 +1,6 @@
 import {ParsedPost} from '../../lib/server/posts';
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'components/misc/image'
 import Markdown, {MarkdownToJSX} from 'markdown-to-jsx';
 import {createElement} from 'react';
 import {PostWrapper} from './post-wrapper';
@@ -87,7 +87,7 @@ const wrappers = {
     img: (type, props, children) => {
         if (props.height && props.width && props.src) {
             return <div key={props.key}>
-                {createElement(Image, {...props, layout: 'responsive'}, children)}
+                {createElement(Image, {...props}, children)}
             </div>;
         }
         return <div key={props.key} className="px-12 py-2 bg-red text-white h1">

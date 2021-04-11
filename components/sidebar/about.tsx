@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from '../layout/card';
-import Image from 'next/image';
+import Image from 'components/misc/image';
 import differenceInYears from 'date-fns/differenceInYears';
 
 const years: number = differenceInYears(new Date(), new Date(1995, 5, 15));
@@ -10,7 +10,7 @@ export default function About() {
         <div className="mb-3">
             <Card>
                 <div className="rounded-t-sm overflow-hidden relative">
-                    <Image alt="About background image" layout="responsive" src="/assets/img/sidebar.jpg" width={400} height={250}/>
+                    <Image alt="About background image" src="sidebar.jpg" width={400} height={250}/>
                     <div className="absolute bottom-0 px-5 py-5 text-white text-2xl font-light">
                         About
                     </div>

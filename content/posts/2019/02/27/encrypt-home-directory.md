@@ -2,7 +2,7 @@
 meta:
     description: How to encrypt the user home directory in Arch Linux
     tags: encrypt, encrypt directory, encrypt arch linux, arch, linux
-postImage: /assets/posts/2019/encryption.jpg
+postImage: 2019/encryption.jpg
 postTitle: "How to: Encrypt your Home directory in Arch Linux"
 publishDate: "2019-02-27"
 teaserText: >

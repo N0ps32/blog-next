@@ -39,7 +39,7 @@ export function generateRssFeed() {
             ],
             contributor: [],
             date: new Date(preview.publishDate),
-            image: `${url}${preview.postImage}`,
+            image: `${url}/assets/img/posts/${preview.postImage}`,
         });
     });
 

@@ -2,7 +2,7 @@
 meta:
     description: Review and overview of the Tolino Shine 3 E-Reader
     tags: review, tolino, e-reader, ebooks
-postImage: /assets/posts/2019/tolino.jpg 
+postImage: 2019/tolino.jpg 
 postTitle: "Tolino Shine 3 review"
 publishDate: "2019-01-31"
 teaserText: >

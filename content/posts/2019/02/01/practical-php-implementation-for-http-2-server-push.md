@@ -2,7 +2,7 @@
 meta:
     description: Practical implementation of HTTP/2 Server Push with PHP and Twig
     tags: twig, php, caddy, http2, server push, preload
-postImage: /assets/posts/2019/programming_header.jpg
+postImage: 2019/programming_header.jpg
 postTitle: "Practical PHP/Twig implementation for HTTP/2 Server Push"
 publishDate: "2019-02-01"
 teaserText: >
