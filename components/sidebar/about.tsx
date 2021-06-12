@@ -3,7 +3,7 @@ import Card from '../layout/card';
 import Image from 'components/misc/image';
 import differenceInYears from 'date-fns/differenceInYears';
 
-const years: number = differenceInYears(new Date(), new Date(1995, 5, 15));
+const years: number = differenceInYears(new Date(), new Date(1995, 4, 15));
 
 export default function About() {
     return (
