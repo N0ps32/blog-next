@@ -26,7 +26,7 @@ export default function About() {
                     </p>
                     <p className="py-3">
                         My blog is open-source and can be found on <a className="link"
-                                                                      href="https://github.com/N0ps32/blog-next"
+                                                                      href="https://github.com/RaederDev/blog-next"
                                                                       target="_blank" rel="noopener">GitHub</a>.
                     </p>
                 </div>

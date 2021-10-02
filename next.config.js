@@ -5,4 +5,9 @@ const withPlugins = require('next-compose-plugins');
 module.exports = withPlugins([
     [withOptimizedImages],
     [withPreact],
-], {poweredByHeader: false});
+], {
+    poweredByHeader: false,
+    images: {
+        disableStaticImages: true
+    }
+});

@@ -7,7 +7,7 @@ export default function SocialIcons() {
         <Card>
             <div className="px-4 py-4 flex">
                 <a title="Follow me on Github" className="inline-block leading-4 hover:opacity-80"
-                   href="https://github.com/N0ps32/" target="_blank" rel="noopener">
+                   href="https://github.com/RaederDev/" target="_blank" rel="noopener">
                     <Image alt="GitHub" src="icons/github.png" width={50} height={50}/>
                 </a>
                 <a title="Subscribe via RSS" className="pl-2 inline-block leading-4 hover:opacity-80"
