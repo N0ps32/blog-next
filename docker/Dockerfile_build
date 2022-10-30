@@ -1,0 +1,4 @@
+FROM node:18-alpine
+
+RUN apk add --update alpine-sdk autoconf automake zlib g++ make libpng-dev libtool nasm
+ENV NODE_OPTIONS=--openssl-legacy-provider
